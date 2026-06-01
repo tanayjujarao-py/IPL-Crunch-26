@@ -50,12 +50,25 @@ Submitted for **IPL Crunch '26** by Wooble — an online data analytics challeng
 
 IPL-Crunch-26/
 │
-├── data/                          # IPL ball-by-ball dataset
+├── data/
+│   └── ipl_dataset.csv          ← your dataset
+│
 ├── notebooks/
-│   ├── IPL_Crunch_26_Analysis.ipynb   # Full analysis — all 5 findings
-│   └── IPL_Visuals.ipynb              # All chart generation code
-├── visuals/                       # exported charts (PNG)
-└── report/                        # Final PDF submission report
+│   └── IPL_Crunch_26_Analysis.ipynb    ← your main analysis
+│   └── IPL_Visuals.ipynb               ← your visuals notebook
+│
+├── visuals/
+│   └── chart1_toss.png
+│   └── chart2_phase_runs.png
+│   └── chart3_phase_dominance.png
+│   └── chart4_bowling_strategy.png
+│   └── table_season_leaders.png
+│   └── surprise_finding.png
+│
+├── report/
+│   └── IPL_Crunch_26_Report.pdf        ← your final report
+│
+└── README.md  
 
 
 ---
